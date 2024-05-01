@@ -6,7 +6,7 @@ export default function Header() {
         <header className={styles.header}>
             <div className={`${styles.leftAlign} ${styles.bob}`}>
                 <Link to="/">
-                    <img src={'../public/logo1.png'} alt="Logo"
+                    <img src={'../public/logo4.png'} alt="Logo"
                         style={{ width: '80px', height: 'auto' }} />
                 </Link>
             </div>
