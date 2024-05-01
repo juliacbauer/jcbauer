@@ -14,8 +14,8 @@ export default function Home() {
 
       <div className={`${styles.homeParagraph} ${styles.aboutHome}`}>
         <br />
-        <h2>About me!</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam sunt, nostrum inventore corrupti facere asperiores veritatis maxime earum animi, est magnam sint, voluptatum expedita labore voluptate consequuntur nisi rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae eveniet distinctio enim ipsam quia dolore at architecto esse.</p>
+        <h2 className={styles.homeAboutP}>About me!</h2>
+        <p className={styles.homeAboutP}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam sunt, nostrum inventore corrupti facere asperiores veritatis maxime earum animi, est magnam sint, voluptatum expedita labore voluptate consequuntur nisi rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae eveniet distinctio enim ipsam quia dolore at architecto esse.</p>
         <br />
         <Link to="/about">
           <button className={styles.buttons}>Read more</button>
