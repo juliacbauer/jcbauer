@@ -1,0 +1,242 @@
+:root {
+  --lightyellow: #fcf8df;
+  --cream: #feebd5;
+  --darkyellow: #fcfbc4;
+  --lightblue: #ec8937;
+  --black: #1e1e1e;
+}
+
+@font-face {
+  font-family: "louis geo";
+  src: url('/lgfont.ttf');
+}
+
+.workLink {
+  position: relative;
+  height: 100%;
+}
+
+.workLink:hover .workLinksContent {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  opacity: 1;
+  transition: .3s;
+}
+
+.workLinksContent {
+  opacity: 0;
+  width: 150px;
+  transition: .3s;
+  margin-top: 10px;
+  background-color: var(--cream);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.workLinksContent a {
+  margin-bottom: 8px;
+}
+
+.header {
+  background-color: var(--lightyellow);
+  font-family: 'louis geo';
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  font-size: 1.3rem;
+}
+
+.header a {
+  text-decoration: none;
+  transition: .5s;
+  color: rgb(37, 32, 29);
+}
+
+.header a:hover {
+  color: rgb(134, 121, 215);
+  transition: .5s;
+}
+
+.leftAlign {
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+@keyframes bob {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bob:hover {
+  animation: bob 0.8s infinite;
+}
+
+.rightAlign {
+  align-self: flex-end;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.rightAlign > * {
+  margin-left: 80px;
+}
+
+.main {
+  background-color: var(--lightyellow);
+  padding-bottom: 40px;
+  min-height: 75vh;
+}
+
+.hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-end;
+  background-color: var(--darkyellow);
+  padding: 20px 20px 20px 100px;
+}
+
+.heading {
+  font-size: 4rem;
+  font-family: 'louis geo';
+  color: var(--black);
+}
+
+.heading2 {
+  font-size: 2rem;
+  font-family: 'louis geo';
+  color: var(--black);
+  margin-top: -30px;
+}
+
+.herop {
+  font-family: 'louis geo';
+  color: var(--black);
+  width: 780px;
+}
+
+.aboutHome {
+  height: 45vh;
+  background: var(--cream);
+}
+
+.homeParagraph {
+  text-align: center;
+  padding: 5px 200px;
+  font-family: 'louis geo';
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: rgb(37, 32, 29);
+}
+
+.workBack {
+  background-color: var(--lightyellow);
+}
+
+.workTitle {
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'louis geo';
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(37, 32, 29);
+  border-radius: 10px;
+  margin-top: 0px;
+}
+
+.workHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.workItem {
+  text-align: center;
+}
+
+.workItem img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.buttons {
+  font-family: 'louis geo';
+  width: 150px;
+  font-size: 1rem;
+  font-weight: 100;
+  color: rgb(37, 32, 29);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: var(--darkyellow);
+  transition: .3s;
+}
+
+.buttons:hover {
+  background-color: var(--lightblue);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.contactHome {
+  background-color: var(--cream);
+  margin-bottom: -40px;
+  height: 40vh;
+}
+
+.contactBox {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 50px 30px 50px;
+}
+
+.contactLink {
+  text-decoration: none;
+  font-weight: 700;
+  transition: .5s;
+  color: rgb(37, 32, 29);
+}
+
+.contactLink:hover {
+  color: darkslateblue;
+  transition: .5s;
+}
+
+.footer {
+  background-color: var(--lightyellow);
+  font-family: 'louis geo';
+  padding: 5px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(37, 32, 29);
+  font-weight: 100;
+}
+
+.footerCred {
+  font-size: 1rem;
+  margin-top: -15px;
+  margin-left: -8px;
+}
+
+/*Add media queries*/
