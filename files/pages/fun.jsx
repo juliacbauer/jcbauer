@@ -6,6 +6,7 @@ export default function Fun() {
   return (
     <main className={styles.main}>
       <div className={styles.homeParagraph}>
+        <br />
         <h1>Just for Fun!</h1>
       </div>
     </main>

@@ -5,6 +5,7 @@ export default function About() {
   return (
     <main className={styles.main}>
       <div className={styles.homeParagraph}>
+        <br />
         <h1>About Me</h1>
         <img src={me} alt="Me" width="600" height="auto" className={styles.meImg} />
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, perferendis nulla atque nihil magni, omnis quas sit alias labore natus error maiores quos, tenetur modi delectus necessitatibus possimus quam quidem.</p>

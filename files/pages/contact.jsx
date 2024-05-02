@@ -8,6 +8,7 @@ export default function Contact() {
   return (
     <main className={styles.main}>
       <div className={styles.homeParagraph}>
+        <br />
         <h1>Contact</h1>
         <p className={styles.aboutParagraph}>Welcome to the Contact Page! To see even more of my work - like my publications, other projects, and work experience - vist my LinkedIn profile. If you want to see more of my repositories for previous course assignments, visit my GitHub profile.</p>
 

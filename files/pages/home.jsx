@@ -7,15 +7,17 @@ export default function Home() {
       <div className={styles.hero}>
         <h1 className={styles.heading}>Hello! I'm Julia Bauer.</h1>
         <h2 className={styles.heading2}>Lorem ipsum dolor sit amet consectetur.</h2>
-        <p className={styles.herop}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam suscipit et nemo adipisci distinctio impedit soluta nulla, amet assumenda perferendis aliquid repudiandae facilis, placeat eveniet saepe laboriosam temporibus quas voluptas.</p>
         <br />
         <br />
       </div>
 
       <div className={`${styles.homeParagraph} ${styles.aboutHome}`}>
         <br />
+        <br />
         <h2 className={styles.homeAboutP}>About me</h2>
+        <br />
         <p className={styles.homeAboutP}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam sunt, nostrum inventore corrupti facere asperiores veritatis maxime earum animi, est magnam sint, voluptatum expedita labore voluptate consequuntur nisi rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae eveniet distinctio enim ipsam quia dolore at architecto esse.</p>
+        <br />
         <br />
         <Link to="/about">
           <button className={styles.buttons}>Read more</button>
@@ -57,6 +59,8 @@ export default function Home() {
       </div>
 
       <div className={`${styles.homeParagraph} ${styles.contactHome}`}>
+        <br />
+        <br />
         <h2 className={styles.homeAboutP}>Contact</h2>
       </div>
     </main>

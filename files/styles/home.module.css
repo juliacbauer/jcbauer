@@ -11,6 +11,11 @@
   src: url('/lgfont.ttf');
 }
 
+@font-face {
+  font-family: "gibson";
+  src: url('/public/Cocogoose-Pro-Bold-trial.ttf');
+}
+
 .workLink {
   position: relative;
   height: 100%;
@@ -31,7 +36,7 @@
   margin-top: 10px;
   background-color: var(--darkyellow);
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   z-index: 1;
   position: absolute;
   top: calc(100% + 5px);
@@ -46,11 +51,11 @@
 
 .header {
   background-color: var(--lightyellow);
-  font-family: 'louis geo';
+  font-family: 'gibson';
   font-weight: 700;
   display: flex;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 10px 100px;
   font-size: 1.3rem;
 }
 
@@ -66,7 +71,7 @@
 }
 
 .leftAlign {
-  margin-top: 10px;
+  margin-top: 20px;
   align-self: flex-start;
 }
 
@@ -90,7 +95,7 @@
 
 .rightAlign {
   align-self: flex-end;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
   display: flex;
 }
 
@@ -102,6 +107,7 @@
   background-color: var(--lightyellow);
   padding-bottom: 40px;
   min-height: 75vh;
+  margin-top: -30px;
 }
 
 .hero {
@@ -116,7 +122,7 @@
 
 .heading {
   font-size: 4rem;
-  font-family: gibson;
+  font-family: 'gibson';
   color: #211e1c;
 }
 
@@ -142,11 +148,12 @@
 
 .homeAboutP  {
   color: var(--lightyellow);
+  width: 900px;
+  margin: 0 auto;
 }
 
 .homeParagraph {
   text-align: center;
-  padding: 5px 200px;
   font-family: 'louis geo';
   font-size: 1.4rem;
   font-weight: 100;
@@ -209,9 +216,8 @@
 }
 
 .buttons:hover {
-  background-color: var(--cream);
-  transition: .3s;
   cursor: pointer;
+  background-color: #fff8ac;
 }
 
 .contactHome {
